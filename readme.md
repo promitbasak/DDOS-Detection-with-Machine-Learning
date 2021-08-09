@@ -6,7 +6,8 @@ This project analyzes packet capture file to detect any DDoS attack. You can get
 
 This project is made as a solution to the competition [HCL HACK IITK 2020](https://hackathon.iitk.ac.in/).
 This goal of this hackathon is to apply the machine learning alogorithms to cyber security technologies.  
-
+  
+The data for this competition can be found at [Google Drive](https://drive.google.com/drive/folders/1-MPTCaLIVdW0DOb7RU0r4r7-3gV7Va9v?usp=sharing)  
 
 ## Team Info
 Team Name: **DU_Apophis**  
