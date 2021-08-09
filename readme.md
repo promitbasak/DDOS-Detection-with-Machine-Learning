@@ -1,7 +1,20 @@
-# DDOS attack Detection
+# DDOS Attack Detection with Machine Learning
 
-Team: DU_Apophis
-Project (Ddos attack Detection)
+## Summary
+This project analyzes packet capture file to detect any DDoS attack. You can get packet capture files with Wireshark or other softwares.  
+
+
+This project is made as a solution to the competition [HCL HACK IITK 2020](https://hackathon.iitk.ac.in/).
+This goal of this hackathon is to apply the machine learning alogorithms to cyber security technologies.  
+
+
+## Team Info
+Team Name: **DU_Apophis**  
+Members:
+- Shahamat Tasin
+- A.H.M. Nazmus Sakib 
+- Promit Basak
+  
 
 ## Codes
 There are four .py files: 
@@ -10,12 +23,13 @@ There are four .py files:
 3. `Train.py`: trains the model.
 4. `ddosdetect.py`: the command line tool to detect ddos attack
 
-First three files are training files. `ddosdetect.py` is the main tool.
+First three files are training files. As I have included the pretrained data here, you may not need to run the first three files.  
+`ddosdetect.py` is the main tool. You can use this on any packet capture file.
 
 ## How to Use
-Run the `ddosdetect.py` in the command line with the path of the pcap file.  
+Run the `ddosdetect.py` in the command line with the path of the pcap (packet capture) file.    
 ```
-	python3 ddosdetect.py absolute_path_for_pcap_file
+	python3 ddosdetect.py path_to_the_pcap_file
 ```
 The program will generate a `Prediction.txt` file with source (`src`), 
 destination (`dst`) and prediction (`malicious` or `benign`).
@@ -26,10 +40,7 @@ destination (`dst`) and prediction (`malicious` or `benign`).
 - `sklearn - 0.23.1`
 - `numpy - 1.19.0`
 - `pandas - 1.1.0`
-- `os`
 - `pathlib`
-- `sys`
-- `pickle`
 
 
 ## Resources 
